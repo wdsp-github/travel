@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick events</title>
+</head>
+<body>
+    <button onclick="m1()">+</button>
+    <button onclick="m2()">-</button>
+    <script>
+        var x=0;
+        function m1(){
+            console.log("welcome to js sessions");
+            console.log(++x);
+        }
+        function m2(){
+            console.log("completed html5 and css3 sessions");
+            console.log(--x);
+            if(x===0){
+                alter("please stop the interaction you have reached the value 0");
+            }
+        }
+    </script>
+    
+</body>
+</html>
